@@ -1,0 +1,65 @@
+<!-- Two main page (main and add blog)  .. Features such as add blog will also be there and we have to store the data of the given blog using html css and javascript -->
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Main Page </title>
+    <!-- Inserting Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+
+    <!-- External CSS -->
+    <link rel="stylesheet" href="./style.css">
+
+</head>
+<body id="body">
+    <!-- Navbar -->
+    <nav class="header">
+        <header class="h">Blog Webpage</header>
+        <button class="icon hidingColor">+</button>
+    </nav>
+
+    <!-- Adding some Demo Blogs -->
+    <div id="addHere" class="t"></div>
+
+
+    <section id="show" class="togg"></section>
+
+    <div class="container" id="contain">
+        <div class="blogs">
+            <img src="./assest/Arbaz wallpaper.jpg" alt="Image" class="image">
+            <h3 class="title">Blog Title : Blogs</h3>
+            <p class="desc">Blog Description : Lorem ipsum dolor sit amet.</p>
+            <button class="read hidingColor" src="./assest/Arbaz wallpaper.jpg" onclick="readMore(this)">Read More</button>
+        </div>
+        <div class="blogs">
+            <img src="./assest/Arbaz shaikh.jpg" alt="Arbaz" class="image">
+            <h3 class="title">Blog Title : Arbaz</h3>
+            <p class="desc">Blog Description : Lorem ipsum dolor sit amet.</p>
+            <button class="read hidingColor" src="./assest/Arbaz shaikh.jpg" onclick="readMore(this)">Read More</button>
+        </div>
+        <div class="blogs">
+            <img src="./assest/PicsArt_02-18-08.46.03.jpg" alt="Sohal" class="image">
+            <h3 class="title">Blog Title : Sohal</h3>
+            <p class="desc">Blog Description : Lorem ipsum dolor sit amet.</p>
+            <button class="read hidingColor" src="./assest/PicsArt_02-18-08.46.03.jpg" onclick="readMore(this)">Read More</button>
+        </div>
+        <div class="blogs" id="here4">Upcoming...</div>
+        <div class="blogs" id="here5">Upcoming...</div>
+        <div class="blogs" id="here6">Upcoming...</div>
+        <div class="blogs" id="here7">Upcoming...</div>
+        <div class="blogs" id="here8">Upcoming...</div>
+        <div class="blogs" id="here9">Upcoming...</div>
+        <!-- Adding External javascript for adding the other blogs  -->
+        <script src="./script.js"></script>
+    </div>
+
+    
+</body>
+</html>
